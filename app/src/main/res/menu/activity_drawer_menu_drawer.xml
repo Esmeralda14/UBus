@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view" >
+
+    <group android:checkableBehavior="single" >
+        <item
+            android:id="@+id/nav_rutas"
+            android:icon="@mipmap/icon"
+            android:title="Rutas" />
+        <item
+            android:id="@+id/nav_mapa"
+            android:icon="@mipmap/placeholder"
+            android:title="Mapa" />
+        <item
+            android:id="@+id/nav_compra"
+            android:icon="@mipmap/money"
+            android:title="Comprar boleto" />
+        <item
+            android:id="@+id/nav_decuentos"
+            android:icon="@mipmap/percentage"
+            android:title="Descuentos" />
+        <item
+            android:id="@+id/nav_ajustes"
+            android:icon="@mipmap/settings"
+            android:title="Ajustes" />
+        <item
+            android:id="@+id/nav_emergencia"
+            android:icon="@mipmap/telephone"
+            android:title="Emergencia" />
+        <item
+            android:id="@+id/nav_acercaDe"
+            android:icon="@mipmap/about"
+            android:title="Acerca de" />
+    </group>
+
+
+</menu>
